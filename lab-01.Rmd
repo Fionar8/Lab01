@@ -129,11 +129,11 @@ visitors %>%
 _How many attractions had between 50,000 and 100,000 visitors in 2022?_
 
 ```{r Ex_f}
-#visitors %>% 
-# filter(
-#    n_2022>50000,
-#    n_2022<100000 ) %>%
-#  count()
+visitors %>% 
+ filter(
+    n_2022>50000,
+    n_2022<100000 ) %>%
+  count()
 ```
 
 ### Exercise g.
